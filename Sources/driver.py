@@ -11,7 +11,7 @@ import multiprocessing as mp
 
 if __name__ == '__main__':
     #videoc = cv2.VideoCapture(0)
-    videoc = cv2.VideoCapture("../../FaceTracking_luis/sources/matt.mp4")
+    videoc = cv2.VideoCapture("../Helper/matt.mp4")
     
     count = 0
     start_time = time.time()

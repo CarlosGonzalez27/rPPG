@@ -13,7 +13,7 @@ class FaceDetector():
     def __init__(self):
         self.rect = []
         self.intitial = True
-        self.faceCascade = cv2.CascadeClassifier("../../sources/haarcascade_frontalface_default.xml")
+        self.faceCascade = cv2.CascadeClassifier("../Helper/haarcascade_frontalface_default.xml")
     
     def skin(self, img):
         return None
